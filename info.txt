@@ -1,0 +1,3 @@
+=> Setup basic express application.Install npm packages and create other required folders in it.
+=> Create a user, his file count, what he saved till now and his login verfication should be done.
+=> Connect database, save user after validation
