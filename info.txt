@@ -1,3 +1,6 @@
 => Setup basic express application.Install npm packages and create other required folders in it.
 => Create a user, his file count, what he saved till now and his login verfication should be done.
 => Connect database, save user after validation
+=> Register user, brcypt for hashing password, jwt for generating token , cookie to save token(cookieParser)
+=> Homepage creation, store file on cloudinary with multer
+=> create fileSchema,apply Authentication via middlwares,show image
