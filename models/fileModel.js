@@ -9,10 +9,9 @@ const fileSchema = new mongoose.Schema({
         type:String,
         required:[true,"Name is required"]
     },
-    userId:{
+    userID:{
         type: mongoose.Schema.Types.ObjectId,
         ref:'usermodel',
-        unique:true,
         required:[true,'User should be logged In']
     }
 })

@@ -3,4 +3,5 @@
 => Connect database, save user after validation
 => Register user, brcypt for hashing password, jwt for generating token , cookie to save token(cookieParser)
 => Homepage creation, store file on cloudinary with multer
-=> create fileSchema,apply Authentication via middlwares,show image
+=> create fileSchema,apply Authentication via middlwares
+=> Download image locally

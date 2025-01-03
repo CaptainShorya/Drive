@@ -94,7 +94,8 @@ router.post(
     //cookie - Automatically go to every request with the header and cookieparser used to parse this.
     res.cookie('token',token);
 
-    res.render('homepage.ejs');
+    res.send("Logged IN");
+    // res.redirect('/homepage');
   }
 );
 
